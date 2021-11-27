@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+/* whole body end*/
+
+
+/* container one start */
+/* nav bar start*/
+nav{
+    border: none;
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+label.logo{
+    line-height: 80px;
+    padding: 0 100px;
+    color: white;
+    
+
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+    line-height: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* nav bar end */
+
+.containerone{
+    height: 700px;
+    border: none;
+    background-image: url(images/spaghetti.jpg);
+    background-size: contain;
+}
+.content1{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    color: white;
+}
+.content1 h2{
+    font-size: 50px;
+    color: white;
+}
+.content1 #book{
+    width: 10%;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #E16520;
+    color: white;
+    border: none;
+}
+/* container one end */
+
+/* container two start */
+.containertwo{
+    border: none;
+    height: 600px;
+    display: flex;
+}
+/* about images start */
+.aboutimages{
+    display: flex;
+    border: none;
+    width: 50%;
+    height: 80%;
+    margin: 3%;
+    padding-left: 20%;
+    /* align-items: center; */
+}
+#leftimage{
+    height: 470px;
+    width: 280px;
+    padding: 1%;
+}
+.aboutimagescolumn{
+    display: flex;
+    flex-direction: column;
+}
+#topcolumnimage{
+    height: 240px;
+    width: 200px;
+    padding: 1%;
+}
+#bottomcolumnimage{
+    height: 240px;
+    width: 200px;
+    padding: 1%;
+}
+/* about images end */
+
+/* content2 start */
+.content2{
+    width: 50%;
+    height: 50%;
+    margin: 3%;
+    padding: 5%;
+    border: none;
+    text-align: start;
+}
+#explore{
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #E16520;
+    color: white;
+    border: none;
+}
+/* content2 end */
+/* container two end */
+
+/* container three start */
+.containerthree{
+    border: none;
+    height: 1000px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.menucardstop{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+
+.menucardsbottom{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+/* menu cards */
+.menucard{
+    border: none;
+    width: 320px;
+    height: 370px;
+    text-align: start;
+    background-color: white;
+}
+.menucardimg{
+    height: 200px;
+    width: 320px;
+}
+.menucard h3{
+    margin-left: 5%;
+}
+.menucard p{
+    margin-left: 5%;
+}
+.price{
+    padding-left: 30%;
+}
+.pricebtn{
+    width: 15%;
+    color: white;
+    background-color: #E16520;
+    border: 1px solid #E16520;
+}
+.ordernow{
+    width: 35%;
+    height: 8%;
+    color: #E16520;
+    font-weight: bold;
+    border: none;
+
+    border-radius: 20px;
+    background-color: rgba(232, 107, 38, 0.08)
+
+    ;
+    margin-left: 3%;
+}
+/* menu cards end */
+
+#exploremenu{
+    width: 10%;
+    height: 4%;
+    margin: 3%;
+    border: 1px solid #E16520;
+    color: white;
+    background-color: #E16520;
+    border-radius: 20px;
+}
+
+/* container three end */
+
+/* container four start */
+.containerfour{
+    border: none;
+    height: 800px;
+    text-align: center;
+    padding-top: 5%;
+}
+.whycardstop{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.whycardsbottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+/* whycard start*/
+.whycard{
+    border: none;
+    width: 400px;
+    height: 300px;
+}
+
+/* whycard end */
+
+/* container four end */
+
+/* container five start */
+.containerfive{
+    border: none;
+    height: 700px;
+    text-align: center;
+    background-image: url(images/macaroni_with_greens.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 5%;
+}
+.profilecardsrow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+.profilecard{
+    padding-top: 3%;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    color: black;
+}
+.profilecard p{
+    padding-top: 5%;
+}
+.profilecard h3{
+    padding-top: 5%;
+}
+
+/* container five end */
+.containersix{
+    border: 1px solid white;
+    height: 700px;
+    text-align: center;
+}
+.content6{
+    margin-top: 5%;
+}
+/* form start */
+.bookform{
+    border: 1px solid white;
+    width: 50%;
+    margin-left: 25%;
+    text-align: start;
+    height: 400px;
+    margin-top: 2%;
+}
+#yourname{
+    width: 100%;
+    margin-top: 2%;
+    height: 8%;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+#youremail{
+    width: 100%;
+    margin-top: 2%;
+    height: 8%;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+.formrowup{
+    display: flex;
+    margin-top: 2%;
+    height: 8%;
+}
+#phone{
+    width: 50%;
+    margin-right: 1%;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+#noofperson{
+    width: 50%;
+    margin-left: 1%;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+.formrowbottom{
+    display: flex;
+    margin-top: 2%;
+    height: 8%;
+}
+#date{
+    width: 50%;
+    margin-right: 1%;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+#time{
+    width: 50%;
+    margin-left: 1%;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+#message{
+    margin-top: 2%;
+    height: 40%;
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+/* form end */
+#mytable{
+    width: 10%;
+    height: 35px;
+    background-color: #E16520;
+    border: 1px solid #E16520;
+    border-radius: 20px;
+    margin-top: 2%;
+    color: white;
+}
+/* container six end */
+
+/* container seven start */
+.containerseven{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(images/burger_plate.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.content7{
+    width: 80%;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.served{
+    color: white;
+}
+.served h3{
+    font-size: 50px;
+}
+.served p{
+    font-size: 30px;
+    margin-left: -30px;
+}
+
+/* container seven end */
+
+/* container eight start */
+.containereight{
+    border: 1px solid black;
+    height: 400px;
+    background-color: #000000;
+    color: white;
+}
+#pepe{
+    width: 99%;
+    height: 30px;
+}
+.barua{
+    width: 100%;
+    height: 30px;
+    margin-top: 1%;
+    background-color: #E16520;
+    color: #f5f5f5;
+    border: 1px solid #E16520;
+}
+.content81{
+    position: relative;
+    left: 50px;
+    top: 110px;
+    width: 25%;
+}
+.content82{
+    position: relative;
+    left: 700px;
+    width: 25%;
+}
+.content83{
+    position: relative;
+    left: 1200px;
+    top: -110px;
+    width: 25%;
+}
+/* container eight end */
+
+/* footer start */
+footer{
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    line-height: 40px;
+}
+footer p{
+    margin-left: 25px;
+}
+footer ul{
+    width: 25%;
+}
+footer ul li{
+    display: inline;
+    padding-left: 20px;
+}
+/* footer end */
+
+
